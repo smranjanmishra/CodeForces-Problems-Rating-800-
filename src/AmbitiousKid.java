@@ -8,6 +8,7 @@ public class AmbitiousKid {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextLong();
         }
+
         long ans = Long.MAX_VALUE;
         for (int i = 0; i < n; i++) {
             ans = Math.min(ans, Math.abs(arr[i]));
