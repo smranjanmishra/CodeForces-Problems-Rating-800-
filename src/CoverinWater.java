@@ -14,16 +14,13 @@ public class CoverinWater {
                         seats.charAt(i) == '.' &&
                         seats.charAt(i + 1) == '.' &&
                         seats.charAt(i + 2) == '.') {
-
                     hasThreeEmptyTogether = true;
                     break;
                 }
-
                 if (seats.charAt(i) == '.') {
                     emptyCount++;
                 }
             }
-
             if (hasThreeEmptyTogether) {
                 System.out.println(2);
             } else {

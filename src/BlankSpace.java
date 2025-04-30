@@ -15,10 +15,9 @@ public class BlankSpace {
             for (int i = 0; i < n; i++)
             {
                 if (a[i] == 0)
-                    count_of_zeroes++; // counting
+                    count_of_zeroes++;
                 else
-                    count_of_zeroes = 0; // reset
-
+                    count_of_zeroes = 0;
                 maximum_length = Math.max(maximum_length, count_of_zeroes);
             }
             System.out.println(maximum_length);

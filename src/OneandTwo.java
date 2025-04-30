@@ -29,5 +29,4 @@ public class OneandTwo {
     }
 }
 
-// tc - O(n) = O(1000)
-// sc - O(n) = O(1000)
+// tc - O(n), sc - O(n)

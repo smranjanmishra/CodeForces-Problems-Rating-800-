@@ -31,5 +31,5 @@ public class LineTrip {
     }
 }
 
-// tc - O(n) - O(50)
+// tc - O(n)
 // sc - O(n)

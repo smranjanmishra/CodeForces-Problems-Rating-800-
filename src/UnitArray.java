@@ -7,12 +7,12 @@ public class UnitArray {
         while (t-- > 0) {
             long n = sc.nextLong();
             long[] a = new long[(int) n];
-            for (int i = 0; i < n; i++) // n
+            for (int i = 0; i < n; i++)
                 a[i] = sc.nextLong();
 
             long positive_count = 0;
             long negative_count = 0;
-            for (int i = 0; i < n; i++) // n
+            for (int i = 0; i < n; i++)
             {
                 if (a[i] == 1)
                     positive_count++;
@@ -21,9 +21,9 @@ public class UnitArray {
             }
 
             long operations = 0;
-            while (positive_count < negative_count || negative_count % 2 == 1) // n
+            while (positive_count < negative_count || negative_count % 2 == 1)
             {
-                operations++; // i have converted a -1 to 1
+                operations++;
                 positive_count++;
                 negative_count--;
             }
@@ -33,6 +33,5 @@ public class UnitArray {
     }
 }
 
-
-// tc - O(n) = O(100)
-// sc - O(n) = O(100)
+// tc - O(n)
+// sc - O(n)

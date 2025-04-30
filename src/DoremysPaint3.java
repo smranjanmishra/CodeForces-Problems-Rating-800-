@@ -10,22 +10,23 @@ public class DoremysPaint3 {
             for (int i = 0; i < n; i++) {
                 a[i] = sc.nextLong();
             }
-
             TreeMap<Long, Long> map = new TreeMap<>();
             for (int i = 0; i < n; i++) {
                 map.put(a[i], map.getOrDefault(a[i], 0L) + 1);
             }
-
             if (map.size() >= 3) {
                 System.out.println("No");
-            } else {
+            }
+            else {
                 long freq1 = map.firstEntry().getValue();
                 long freq2 = map.lastEntry().getValue();
                 if (freq1 == freq2) {
                     System.out.println("Yes");
-                } else if (n % 2 == 1 && Math.abs(freq1 - freq2) == 1) {
+                }
+                else if (n % 2 == 1 && Math.abs(freq1 - freq2) == 1) {
                     System.out.println("Yes");
-                } else {
+                }
+                else {
                     System.out.println("No");
                 }
             }

@@ -23,5 +23,5 @@ public class JaggedSwaps {
 }
 
 
-// tc - O(n) = O(10)
-// sc - O(n) = O(10)
+// tc - O(n)
+// sc - O(n)

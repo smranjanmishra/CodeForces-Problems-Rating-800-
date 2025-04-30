@@ -5,11 +5,11 @@ public class AmbitiousKid {
         Scanner sc = new Scanner(System.in);
         long n = sc.nextLong();
         long[] arr = new long[(int) n];
-        for (int i = 0; i < n; i++) { // n
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextLong();
         }
         long ans = Long.MAX_VALUE;
-        for (int i = 0; i < n; i++) { // n
+        for (int i = 0; i < n; i++) {
             ans = Math.min(ans, Math.abs(arr[i]));
         }
         System.out.println(ans);

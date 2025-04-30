@@ -16,10 +16,12 @@ public class ForbiddenInteger {
                     System.out.print(1 + " ");
                 }
                 System.out.println();
-            } else {
+            }
+            else {
                 if (k == 1 || (k == 2 && n % 2 == 1)) {
                     System.out.println("NO");
-                } else {
+                }
+                else {
                     System.out.println("YES");
                     if (n % 2 == 0) {
                         System.out.println(n / 2);
@@ -27,7 +29,8 @@ public class ForbiddenInteger {
                             System.out.print(2 + " ");
                         }
                         System.out.println();
-                    } else {
+                    }
+                    else {
                         System.out.println((n - 3) / 2 + 1);
                         for (int i = 1; i <= (n - 3) / 2; i++) {
                             System.out.print(2 + " ");
@@ -39,7 +42,6 @@ public class ForbiddenInteger {
         }
     }
 }
-
 
 // tc - O(n) = O(100)
 // sc - O(1)

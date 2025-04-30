@@ -10,14 +10,14 @@ public class GrasshopperonaLine {
             if (x % k == 0) {
                 System.out.println(2);
                 System.out.println(1 + " " + (x - 1));
-            } else {
+            }
+            else {
                 System.out.println(1);
                 System.out.println(x);
             }
         }
     }
 }
-
 
 // tc - O(1)
 // sc - O(1)

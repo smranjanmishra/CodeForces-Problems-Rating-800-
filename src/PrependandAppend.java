@@ -22,5 +22,4 @@ public class PrependandAppend {
     }
 }
 
-// tc - O(n) = O(2000)
-// sc - O(n) = O(2000)
+// tc - O(n), sc - O(n)

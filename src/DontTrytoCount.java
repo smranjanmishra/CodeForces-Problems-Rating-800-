@@ -21,7 +21,6 @@ public class DontTrytoCount {
             int m = sc.nextInt();
             String x = sc.next();
             String s = sc.next();
-
             String x0 = x;
             String x1 = x0 + x0;
             String x2 = x1 + x1;

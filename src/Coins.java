@@ -8,7 +8,6 @@ public class Coins {
             long n = sc.nextLong();
             long k = sc.nextLong();
             if (n % 2 == 0 || (n - k) % 2 == 0) {
-                // we took y = 0 or y = 1
                 System.out.println("YES");
             }
             else {

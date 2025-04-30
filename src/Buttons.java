@@ -8,14 +8,14 @@ public class Buttons {
             long a = sc.nextLong();
             long b = sc.nextLong();
             long c = sc.nextLong();
-            if (c % 2 == 1) { // odd
-                if (b > a) { // 1
+            if (c % 2 == 1) {
+                if (b > a) {
                     System.out.println("Second");
                 } else {
                     System.out.println("First");
                 }
-            } else { // even
-                if (a > b) { // 1
+            } else {
+                if (a > b) {
                     System.out.println("First");
                 } else {
                     System.out.println("Second");

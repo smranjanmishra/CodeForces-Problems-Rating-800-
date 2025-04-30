@@ -12,11 +12,11 @@ public class Desorting {
             }
             long op = Integer.MAX_VALUE;
             for (int i = 0; i < n - 1; i++) {
-                if (a[i] <= a[i + 1]) { // sorted
-                    long diff = a[i + 1] - a[i]; // always positive
+                if (a[i] <= a[i + 1]) {
+                    long diff = a[i + 1] - a[i];
                     long req = diff / 2 + 1;
                     op = Math.min(op, req);
-                } else { // unsorted
+                } else {
                     op = 0;
                 }
             }

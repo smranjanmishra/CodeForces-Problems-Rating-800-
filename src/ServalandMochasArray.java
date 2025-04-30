@@ -36,4 +36,4 @@ public class ServalandMochasArray {
 }
 
 // tc - O(n^2 * log2(min(a[i], a[j])))
-// sc - O(n) = O(100)
+// sc - O(n)

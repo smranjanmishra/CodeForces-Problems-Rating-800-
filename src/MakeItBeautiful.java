@@ -4,20 +4,18 @@ public class MakeItBeautiful {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-
         while (t-- > 0) {
             int n = sc.nextInt();
             long[] a = new long[n];
             for (int i = 0; i < n; i++)
                 a[i] = sc.nextLong();
-
             Arrays.sort(a);
             long maxNumber = a[n - 1];
             long minNumber = a[0];
-
             if (maxNumber == minNumber) {
                 System.out.println("NO");
-            } else {
+            }
+            else {
                 System.out.println("YES");
                 System.out.print(maxNumber + " ");
                 for (int i = 0; i < n - 1; i++)
@@ -28,5 +26,5 @@ public class MakeItBeautiful {
     }
 }
 
-// tc : O(nlogn) + O(n) = O(nlogn) = O(50) = O(50*log2(50)) = O(50*6) = O(300)
-// sc : O(n) = O(50)
+// tc : O(nlogn) + O(n) = O(nlogn)
+// sc : O(n)

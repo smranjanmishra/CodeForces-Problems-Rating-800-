@@ -25,7 +25,6 @@ public class TargetPractice {
                     a[i][j] = s.charAt(j);
                 }
             }
-
             int totalScore = 0;
             for (int i = 0; i < 10; i++) {
                 for (int j = 0; j < 10; j++) {
@@ -38,6 +37,3 @@ public class TargetPractice {
         }
     }
 }
-
-// TC - O(n^2) = O(100)
-// SC - O(10*10) = O(100)

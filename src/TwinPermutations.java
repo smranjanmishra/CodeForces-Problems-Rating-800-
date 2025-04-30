@@ -9,8 +9,7 @@ public class TwinPermutations {
             long[] a = new long[(int) n];
             for (int i = 0; i < n; i++)
                 a[i] = sc.nextLong();
-            for (int i = 0; i < n; i++)
-            {
+            for (int i = 0; i < n; i++){
                 System.out.print((n + 1 - a[i]) + " ");
             }
             System.out.println();
@@ -18,5 +17,5 @@ public class TwinPermutations {
     }
 }
 
-// tc = O(n) = O(100)
-// sc = O(n) = O(100)
+// tc = O(n)
+// sc = O(n)
