@@ -7,9 +7,12 @@ public class ServalandMochasArray {
         while (t-- > 0) {
             long n = sc.nextLong();
             long[] a = new long[(int) n];
+
             for (int i = 0; i < n; i++)
                 a[i] = sc.nextLong();
+
             int flag = 0;
+
             for (int i = 0; i < n; i++) {
                 for (int j = i + 1; j < n; j++)
                 {

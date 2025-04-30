@@ -10,12 +10,14 @@ public class UnitedWeStand {
             for (int i = 0; i < n; i++) {
                 a[i] = sc.nextLong();
             }
+
             long mx = Long.MIN_VALUE;
             for (int i = 0; i < n; i++) {
                 mx = Math.max(mx, a[i]);
             }
             List<Long> b = new ArrayList<>();
             List<Long> c = new ArrayList<>();
+
             for (int i = 0; i < n; i++) {
                 if (a[i] != mx) {
                     b.add(a[i]);
@@ -25,7 +27,8 @@ public class UnitedWeStand {
             }
             if (b.size() == 0) {
                 System.out.println(-1);
-            } else {
+            }
+            else {
                 System.out.println(b.size() + " " + c.size());
                 for (long it : b) {
                     System.out.print(it + " ");

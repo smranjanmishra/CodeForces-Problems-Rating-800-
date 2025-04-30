@@ -11,6 +11,7 @@ public class SequenceGame {
             for (int i = 0; i < n; i++) {
                 b[i] = sc.nextLong();
             }
+
             a.add(b[0]);
             for (int i = 1; i < n; i++) {
                 if (b[i] >= b[i - 1]) {
@@ -28,7 +29,6 @@ public class SequenceGame {
         }
     }
 }
-
 
 // tc = O(n)
 // sc = O(n)

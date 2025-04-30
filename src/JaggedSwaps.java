@@ -15,7 +15,8 @@ public class JaggedSwaps {
 
             if (numbers[0] == 1) {
                 System.out.println("YES");
-            } else {
+            }
+            else {
                 System.out.println("NO");
             }
         }

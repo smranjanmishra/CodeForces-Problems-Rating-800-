@@ -15,5 +15,6 @@ public class GoalsofVictory {
     }
 }
 
+
 // TC - O(n)
 // SC - O(1)

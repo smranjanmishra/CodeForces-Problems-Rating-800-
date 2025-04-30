@@ -30,5 +30,6 @@ public class CoverinWater {
     }
 }
 
+
 // tc - O(n) = O(100)
 // sc - O(1)

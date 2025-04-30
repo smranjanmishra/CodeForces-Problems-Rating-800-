@@ -19,12 +19,14 @@ public class TargetPractice {
         int t = sc.nextInt();
         while (t-- > 0) {
             char[][] a = new char[10][10];
+
             for (int i = 0; i < 10; i++) {
                 String s = sc.next();
                 for (int j = 0; j < 10; j++) {
                     a[i][j] = s.charAt(j);
                 }
             }
+
             int totalScore = 0;
             for (int i = 0; i < 10; i++) {
                 for (int j = 0; j < 10; j++) {

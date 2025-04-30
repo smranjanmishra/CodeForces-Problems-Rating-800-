@@ -12,8 +12,7 @@ public class UnitArray {
 
             long positive_count = 0;
             long negative_count = 0;
-            for (int i = 0; i < n; i++)
-            {
+            for (int i = 0; i < n; i++) {
                 if (a[i] == 1)
                     positive_count++;
                 else

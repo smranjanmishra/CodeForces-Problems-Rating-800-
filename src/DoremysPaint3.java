@@ -34,6 +34,5 @@ public class DoremysPaint3 {
     }
 }
 
-
 // TC: O(n log n)
 // SC: O(n)

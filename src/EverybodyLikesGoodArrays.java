@@ -19,5 +19,6 @@ public class EverybodyLikesGoodArrays {
     }
 }
 
+
 // tc - O(n) = O(100)
 // sc - O(n) = O(100)

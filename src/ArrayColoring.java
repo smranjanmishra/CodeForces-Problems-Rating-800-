@@ -25,5 +25,6 @@ public class ArrayColoring {
     }
 }
 
+
 // tc - O(n) - O(50)
 // sc - O(n) - O(50)

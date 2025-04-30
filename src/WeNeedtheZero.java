@@ -15,7 +15,8 @@ public class WeNeedtheZero {
                 total_xor ^= a[i];
             if (n % 2 == 1) {
                 System.out.println(total_xor);
-            } else {
+            }
+            else {
                 if (total_xor == 0)
                     System.out.println(total_xor);
                 else

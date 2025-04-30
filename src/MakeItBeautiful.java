@@ -26,5 +26,6 @@ public class MakeItBeautiful {
     }
 }
 
-// tc : O(nlogn) + O(n) = O(nlogn)
+
+// tc : O(nlogn)
 // sc : O(n)

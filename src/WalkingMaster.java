@@ -14,6 +14,7 @@ public class WalkingMaster {
                 System.out.println(-1);
                 continue;
             }
+
             int moves = destination_y - source_y;
             source_x += moves;
 

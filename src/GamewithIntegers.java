@@ -15,5 +15,6 @@ public class GamewithIntegers {
     }
 }
 
+
 // tc - O(1)
 // sc - O(1)
